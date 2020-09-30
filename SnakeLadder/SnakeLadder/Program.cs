@@ -35,6 +35,7 @@ namespace SnakeLadder
                         break;
                 }
                 count++;
+                Console.WriteLine("ROLL : " + count + ", POSITION : " + pos);
             }
             Console.WriteLine("New Position :  " + pos);
             Console.WriteLine("The Player Has Reached the Exact Winning Position !! ");
